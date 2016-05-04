@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Libreria &#124; Caracteristicas</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Libreria &#124; Caracteristicas</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/styles-header.css" />
-	<link rel="stylesheet" href="css/style_footer.css">
+    <link rel="stylesheet" href="css/style_footer.css">
+    <link rel="stylesheet" href="css/styles-navbar-toggle.css">
+    <link rel="stylesheet" href="css/styles-navbar-principal.css">
+
+
 </head>
+
 <body>
-	<header>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <header>
         <div class="container-fluid super visible-lg-block visible-md-block">
             <nav class="navbar navbar-inverse top-links navbar-default">
                 <div class="container-fluid">
@@ -115,201 +123,333 @@
 
         <!--//Primer menu de navegación por Cairo -->
         <br>
+        <!--Walter segundo menu-->
+        <div class="container">
+            <nav class="navbar navbar-default navbar-principal ">
+                <div class="container-fluid">
+                    <ul class="menu_principal">
 
-        <!--//Aqui va el de Walter -->
+
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">NUESTROS LIBROS</a></li>
+
+                            <li class="btn-group">
+                                <a href="#" class=" dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">ÁREA TEMÁTICA <b class="caret"></b>
+                                    </a>
+
+                                <div class="container dropdown-menu" id="tabla-container">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <a href="">> Estudios de Posgrado</a>
+                                                </td>
+                                                <td>
+                                                    <a href="">> Investigación Aplicada y Multidiciplinaria</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="">> Ciencias Juridicas</a>
+                                                </td>
+
+                                                <td>
+                                                    <a href="">> Ciencias Socioeconómicas</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="">> Diseño y Edificación</a>
+                                                </td>
+                                                <td><a href="">> Humanidades</a></td>
+                                            </tr>
+                                            <tr>
+
+                                                <td> <a href="">> Matematicás e ingeniería </a>
+                                                </td>
+                                                <td>
+                                                    <a href="">> Universidad Abierta y Educación a Distancia </a>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+
+
+                                                <td> <a href="">> Enseñanza de Idiomas</a>
+                                                </td>
+                                                <td><a href="">> Divulgación Cientifica</a>
+                                                </td>
+                                            </tr>
+
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+
+                            </li>
+
+                            <li><a href="#">E-BOOKS</a></li>
+                            <li><a href="#">EVENTOS</a></li>
+
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">CONTACTO</a></li>
+                        </ul>
+
+
+
+                        <div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="  search-query form-control" placeholder="Buscar en toda la tienda" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                </button>
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <!--MENÚ DE TOGGLE,en dispositivos moviles -->
+
+                        <div class="container-fluid">
+                            <div class="menu_toggle">
+                                <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-toggle-content"></i>
+
+                                <div class="menu-toggle-list">
+
+                                    <ul id="menu-toggle-content" class="menu-toggle-content collapse out">
+
+                                        <li>NUESTROS LIBROS</li>
+
+                                        <li data-toggle="collapse" data-target="#area-tematica" class="collapsed">
+                                            ÁREA TEMÁTICA <span class="glyphicon glyphicon-plus"></span>
+                                        </li>
+
+                                        <ul class="sub-menu collapse" id="area-tematica">
+                                            <li>Estudios de Posgrado</li>
+                                            <li>diseño y edificacion</li>
+                                            <li>Matemáticas e ingeniería</li>
+                                            <li>enseñansa de idiomas</li>
+                                            <li>siencias socioeconomicas</li>
+                                            <li>humanidades</li>
+                                            <li>universidad abierta y educacion a distancia</li>
+                                            <li>investigacion aplicada y multidisiplinaria</li>
+                                            <li>divulgación cientifica</li>
+                                        </ul>
+
+
+                                        <li><a href="#">E-BOOKS</a></li>
+                                        <li><a href="#">EVENTOS</a></li>
+                                        <li><a href="#">BLOG</a></li>
+                                        <li>CONTACTO</li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <!--//Walter segundo menu-->
 
     </header>
-    
-	<div class="container carac">
-	    <div class="row">
-	        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
-	            <img src="img/tiro-de-fuego.jpg" alt="tiro de fuego" class="img img-responsive">
-	        </div>
-	        <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
-	            <h1>A tiro de fuego</h1>
-	            <p>Disponibilidad: <small>En existencia</small></p>
-	            <p>Mira otros productos de Dirección General de Publicaciones y Fomento Editorial</p>
-	            <p><strong>Categoría:</strong> Artes visuales</p>
-	            <p><strong>Editorial:</strong> Dirección General de Publicaciones y Fomento Editorial</p>
-	            <p><strong>Autor:</strong> Humberto Valdez</p>
-	            <p><strong>Año de Edición:</strong> 3</p>
-	            <p><strong>ISBN/ISSN:</strong> 9786070272233</p>
-	                   <div class="row">
-	                         <div class="col-lg-2">
-	                             <img src="img/libro.jpg" alt="libros">
-	                         </div>
-	                         <div class="col-lg-9">
-	                             <h2><strong>Libro Impreso</strong></h2>
-	                         </div>
-	                   </div>
-	            <p>Sea el primero en dejar una reseña para este producto</p>
-	            <div class="linea"></div>
-	            <h4><strong>MXN$ 336</strong></h4>
-	            <p class="text-justify">"A tiro de fuego" surge en un contexto donde la crisis es una constante dentro de una compleja realidad marcada por la escisión y la desigualdad. Convencidos del poder de la unidad, la convocatoria de este Encuentro Nacional de Talleres de Gráfica busca reunir y mostrar la voz de distintos grupos que hablan desde las lógicas diferencias del lenguaje y las distintas coordenadas de la República Mexicana; conjunta desde las obras de artistas noveles, hasta de los de amplia trayectoria y reconocimiento. Confluyen ahora cuatro generaciones, mostrándose a partir de la singularidad (sin afanes exhaustivos) en maneras y modos de identidad colaborativa, unidas por el común denominador de la gráfica como entramado estructural y cultural.</p>
-	        </div>
-	    </div>
-	    </div>
-	    <br>
-	    <br>
-	    <br>
-	    <div class="container">
-	        <div class="row">
-<ul class="nav nav-tabs">
-  <li class="active col-lg-2 col-md-2 col-sm-3 col-xs-12"><a href="#tab_a" data-toggle="tab">DESCRIPCIÓN</a></li>
-  <li class="col-lg-3 col-md-4 col-sm-4 col-xs-12"><a href="#tab_b" data-toggle="tab">INFORMACIÓN ADICIONAL</a></li>
-  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-12"><a href="#tab_c" data-toggle="tab">RESEÑAS</a></li>
-</ul>
-<div class="tab-content">
-        <div class="tab-pane active" id="tab_a">
-           <br>
-            <p class="text-justify">"A tiro de fuego" surge en un contexto donde la crisis es una constante dentro de una compleja realidad marcada por la escisión y la desigualdad. Convencidos del poder de la unidad, la convocatoria de este Encuentro Nacional de Talleres de Gráfica busca reunir y mostrar la voz de distintos grupos que hablan desde las lógicas diferencias del lenguaje y las distintas coordenadas de la República Mexicana; conjunta desde las obras de artistas noveles, hasta de los de amplia trayectoria y reconocimiento. Confluyen ahora cuatro generaciones, mostrándose a partir de la singularidad (sin afanes exhaustivos) en maneras y modos de identidad colaborativa, unidas por el común denominador de la gráfica como entramado estructural y cultural.</p>
-        </div>
-        <div class="tab-pane bordes" id="tab_b">
 
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Peso</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p>0.000</p>
-             </div>
-           <div class="clearfix visible-lg-block visible-md-block"></div>
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Autor</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p class="text-justify">Humberto Valdez</p>
-             </div>
-           <div class="clearfix visible-lg-block visible-md-block"></div>
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Biografía</p>
-         </div>
-             <div class="col-md-8 bordes">
-               <h4>Humberto Valdez</h4>
-               <p class="text-justify">Fundador y director del Taller de Grabado y Dibujo, ?La Imagen del Rinoceronte?, INBA-CONACULTA, SEA. Estudios de Maestría en Artes Visuales en la Academia de San Carlos, Unidad de Estudios de Postgrado ENAP/UNAM 2004. Estudios de Licenciatura en la Escuela Nacional de Artes Plásticas UNAM. Incorporado al programa de Alta Exigencia Académica PAEA, Academia de San Carlos, 1998. Cursos de Museografía, Claustro de Sor Juana 2007, UNAM Facultad de Arquitectura 2005, Escuela de Artes de Valencia España 1998.Estudios de Licenciatura en la Universidad Politécnica de Valencia, España. Inscrito en el Programa PROMOE, 1998.0</p>
-             </div>
-            <div class="clearfix visible-lg-block visible-md-block"></div>
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Contenido</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p class="text-justify">Presentación... A tiro de fuego: espacio de reflexión y encuentro... La gráfica favorece la formación crítica y social de artistas plásticos... A tiro de fuego: constancia del crecimiento y fortalecimiento de la tradición gráfica en México... La gráfica, fundamental en la historia de las artes visuales de México... Una contribución al aprendizaje y a la estimulación de la gráfica... A tiro de fuego, fomenta el contacto y encuentro entre talleres de gráfica... El taller de formación, producción o mixto: protagonista y crisol del proceso de la obra gráfica... Talleres. Formación... Producción... Mixtos...Agradecimientos Directorio de talleres... Índice de obra.</p>
-             </div>
-            <div class="clearfix visible-lg-block visible-md-block"></div>
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">ISBN/ISSN</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p class="text-justify">9786070272233</p>
-             </div>
-           <div class="clearfix visible-lg-block visible-md-block"></div>
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Tipo</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p class="text-justify">Material de consulta</p>
-             </div>
-            <div class="clearfix visible-lg-block visible-md-block"></div>
-           
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Coedición</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p class="text-justify">Fondo Nacional para la Cultura y las Artes, Instituto Nacional de las Bellas Artes y Literatura, Consejo Nacional para la Cultura y las Artes</p>
-             </div>
-            <div class="clearfix visible-lg-block visible-md-block"></div>
-           
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Colaborador</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p class="text-justify">Fondo Nacional para la Cultura y las Artes</p>
-             </div>
-          
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Lengua</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p class="text-justify">Español</p>
-             </div>
-           <div class="clearfix visible-lg-block visible-md-block"></div>
-          
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Número de páginas</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p>239</p>
-             </div>
-           
-           <div class="clearfix visible-lg-block visible-md-block"></div>
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Tamaño</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p class="text-justify">17.5 x 24</p>
-             </div>
-           <div class="clearfix visible-lg-block visible-md-block"></div>
-           
-             <div class="col-md-4 bordes bordes2">
-               <p style="font-weight: bold;">Terminado o acabado</p>
-             </div>
-             <div class="col-md-8 bordes">
-               <p class="text-justify">Pasta dura</p>
-             </div>
-            <div class="clearfix visible-lg-block visible-md-block"></div>
-        </div>
-        <div class="tab-pane" id="tab_c">
-           
-               <div class="col-lg-12">
-                  <br>
-                   <h5><strong>Escribe tu Propia Revisión</strong></h5>
-                   <p>¿Cómo valoras este producto?</p>
-                   <div class="form-control">
-                    <label class="checkbox-inline">
-                         <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
-                       </label>
-                       <label class="checkbox-inline">
-                         <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
-                       </label>
-                       <label class="checkbox-inline">
-                         <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
-                       </label>
-                       <label class="checkbox-inline">
-                         <input type="checkbox" id="inlineCheckbox4" value="option4"> 4
-                       </label>
-                       <label class="checkbox-inline">
-                         <input type="checkbox" id="inlineCheckbox5" value="option5"> 5
-                       </label>
-
-                   </div>
+    <div class="container carac">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                <img src="img/tiro-de-fuego.jpg" alt="tiro de fuego" class="img img-responsive">
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                <h1>A tiro de fuego</h1>
+                <p>Disponibilidad: <small>En existencia</small></p>
+                <p>Mira otros productos de Dirección General de Publicaciones y Fomento Editorial</p>
+                <p><strong>Categoría:</strong> Artes visuales</p>
+                <p><strong>Editorial:</strong> Dirección General de Publicaciones y Fomento Editorial</p>
+                <p><strong>Autor:</strong> Humberto Valdez</p>
+                <p><strong>Año de Edición:</strong> 3</p>
+                <p><strong>ISBN/ISSN:</strong> 9786070272233</p>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="img/libro.jpg" alt="libros">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2><strong>Libro Impreso</strong></h2>
+                    </div>
                 </div>
-         
-                 <form>
-                           <div class="col-lg-6">
-                               <div class="form-group">
-                          <label for="Apodo">Apodo</label>
-                          <input type="apodo" class="form-control" id="apodo" placeholder="Apodo">
-                        </div>
-                         <div class="form-group">
-                           <label for="Resumen">Resumen</label>
-                           <input type="resumen" class="form-control" id="resumen" placeholder="Resumen">
-                         </div>
-                           </div>
-                           <div class="col-lg-6">
-                              <label for="Revisión">Revisión</label>
-                               <textarea class="form-control" rows="3"></textarea>
-                               <br>
-                               <button type="submit" class="btn btn-default">Enviar</button>
-                           </div>
-                      
-                 </form>
+                <p>Sea el primero en dejar una reseña para este producto</p>
+                <div class="linea"></div>
+                <h4><strong>MXN$ 336</strong></h4>
+                <p class="text-justify">"A tiro de fuego" surge en un contexto donde la crisis es una constante dentro de una compleja realidad marcada por la escisión y la desigualdad. Convencidos del poder de la unidad, la convocatoria de este Encuentro Nacional de Talleres de Gráfica busca reunir y mostrar la voz de distintos grupos que hablan desde las lógicas diferencias del lenguaje y las distintas coordenadas de la República Mexicana; conjunta desde las obras de artistas noveles, hasta de los de amplia trayectoria y reconocimiento. Confluyen ahora cuatro generaciones, mostrándose a partir de la singularidad (sin afanes exhaustivos) en maneras y modos de identidad colaborativa, unidas por el común denominador de la gráfica como entramado estructural y cultural.</p>
+            </div>
         </div>
-        
-        
-        
-</div><!-- tab content -->
-</div><!-- end of container -->
-	    </div>
-	 <footer class="container-fluid">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <ul class="nav nav-tabs">
+                <li class="active col-lg-2 col-md-2 col-sm-3 col-xs-12"><a href="#tab_a" data-toggle="tab">DESCRIPCIÓN</a></li>
+                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-12"><a href="#tab_b" data-toggle="tab">INFORMACIÓN ADICIONAL</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-12"><a href="#tab_c" data-toggle="tab">RESEÑAS</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab_a">
+                    <br>
+                    <p class="text-justify">"A tiro de fuego" surge en un contexto donde la crisis es una constante dentro de una compleja realidad marcada por la escisión y la desigualdad. Convencidos del poder de la unidad, la convocatoria de este Encuentro Nacional de Talleres de Gráfica busca reunir y mostrar la voz de distintos grupos que hablan desde las lógicas diferencias del lenguaje y las distintas coordenadas de la República Mexicana; conjunta desde las obras de artistas noveles, hasta de los de amplia trayectoria y reconocimiento. Confluyen ahora cuatro generaciones, mostrándose a partir de la singularidad (sin afanes exhaustivos) en maneras y modos de identidad colaborativa, unidas por el común denominador de la gráfica como entramado estructural y cultural.</p>
+                </div>
+                <div class="tab-pane bordes" id="tab_b">
+
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Peso</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p>0.000</p>
+                    </div>
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Autor</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p class="text-justify">Humberto Valdez</p>
+                    </div>
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Biografía</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <h4>Humberto Valdez</h4>
+                        <p class="text-justify">Fundador y director del Taller de Grabado y Dibujo, ?La Imagen del Rinoceronte?, INBA-CONACULTA, SEA. Estudios de Maestría en Artes Visuales en la Academia de San Carlos, Unidad de Estudios de Postgrado ENAP/UNAM 2004. Estudios de Licenciatura en la Escuela Nacional de Artes Plásticas UNAM. Incorporado al programa de Alta Exigencia Académica PAEA, Academia de San Carlos, 1998. Cursos de Museografía, Claustro de Sor Juana 2007, UNAM Facultad de Arquitectura 2005, Escuela de Artes de Valencia España 1998.Estudios de Licenciatura en la Universidad Politécnica de Valencia, España. Inscrito en el Programa PROMOE, 1998.0</p>
+                    </div>
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Contenido</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p class="text-justify">Presentación... A tiro de fuego: espacio de reflexión y encuentro... La gráfica favorece la formación crítica y social de artistas plásticos... A tiro de fuego: constancia del crecimiento y fortalecimiento de la tradición gráfica en México... La gráfica, fundamental en la historia de las artes visuales de México... Una contribución al aprendizaje y a la estimulación de la gráfica... A tiro de fuego, fomenta el contacto y encuentro entre talleres de gráfica... El taller de formación, producción o mixto: protagonista y crisol del proceso de la obra gráfica... Talleres. Formación... Producción... Mixtos...Agradecimientos Directorio de talleres... Índice de obra.</p>
+                    </div>
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">ISBN/ISSN</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p class="text-justify">9786070272233</p>
+                    </div>
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Tipo</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p class="text-justify">Material de consulta</p>
+                    </div>
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Coedición</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p class="text-justify">Fondo Nacional para la Cultura y las Artes, Instituto Nacional de las Bellas Artes y Literatura, Consejo Nacional para la Cultura y las Artes</p>
+                    </div>
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Colaborador</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p class="text-justify">Fondo Nacional para la Cultura y las Artes</p>
+                    </div>
+
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Lengua</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p class="text-justify">Español</p>
+                    </div>
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Número de páginas</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p>239</p>
+                    </div>
+
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Tamaño</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p class="text-justify">17.5 x 24</p>
+                    </div>
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+
+                    <div class="col-md-4 bordes bordes2">
+                        <p style="font-weight: bold;">Terminado o acabado</p>
+                    </div>
+                    <div class="col-md-8 bordes">
+                        <p class="text-justify">Pasta dura</p>
+                    </div>
+                    <div class="clearfix visible-lg-block visible-md-block"></div>
+                </div>
+                <div class="tab-pane" id="tab_c">
+
+                    <div class="col-lg-12">
+                        <br>
+                        <h5><strong>Escribe tu Propia Revisión</strong></h5>
+                        <p>¿Cómo valoras este producto?</p>
+                        <div class="form-control">
+                            <label class="checkbox-inline">
+                                <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" id="inlineCheckbox4" value="option4"> 4
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" id="inlineCheckbox5" value="option5"> 5
+                            </label>
+
+                        </div>
+                    </div>
+
+                    <form>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="Apodo">Apodo</label>
+                                <input type="apodo" class="form-control" id="apodo" placeholder="Apodo">
+                            </div>
+                            <div class="form-group">
+                                <label for="Resumen">Resumen</label>
+                                <input type="resumen" class="form-control" id="resumen" placeholder="Resumen">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="Revisión">Revisión</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                            <br>
+                            <button type="submit" class="btn btn-default">Enviar</button>
+                        </div>
+
+                    </form>
+                </div>
+
+
+
+            </div>
+            <!-- tab content -->
+        </div>
+        <!-- end of container -->
+    </div>
+    <footer class="container-fluid">
         <div class="row aire">
             <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
                 <!--Columna 1-->
@@ -421,7 +561,14 @@
 
         </div>
     </div>
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <script src="js/bryan-body2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
