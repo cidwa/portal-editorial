@@ -66,3 +66,7 @@ ul li a:hover{
 .bordes2 {
     background: #f8f8f8;
 }
+
+.espacio-bl .row{
+    margin-top: 100px;
+}
