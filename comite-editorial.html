@@ -118,101 +118,50 @@
         <!--Walter segundo menu-->
         <div class="container">
             <nav class="navbar navbar-default navbar-principal ">
-                <div class="container-fluid">
-                    <ul class="menu_principal">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">NUESTROS LIBROS</a></li>
-                            <li class="btn-group">
-                                <a href="#" class=" dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">ÁREA TEMÁTICA <b class="caret"></b>
-                                    </a>
-                                <div class="container dropdown-menu" id="tabla-container">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="">> Estudios de Posgrado</a>
-                                                </td>
-                                                <td>
-                                                    <a href="">> Investigación Aplicada y Multidiciplinaria</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <a href="">> Ciencias Juridicas</a>
-                                                </td>
 
-                                                <td>
-                                                    <a href="">> Ciencias Socioeconómicas</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <a href="">> Diseño y Edificación</a>
-                                                </td>
-                                                <td><a href="">> Humanidades</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td> <a href="">> Matematicás e ingeniería </a>
-                                                </td>
-                                                <td>
-                                                    <a href="">> Universidad Abierta y Educación a Distancia </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td> <a href="">> Enseñanza de Idiomas</a>
-                                                </td>
-                                                <td><a href="">> Divulgación Cientifica</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </li>
-                            <li><a href="#">E-BOOKS</a></li>
-                            <li><a href="#">EVENTOS</a></li>
-                            <li><a href="#">BLOG</a></li>
-                            <li><a href="#">CONTACTO</a></li>
-                        </ul>
-                        <div id="custom-search-input">
-                            <div class="input-group col-md-12">
-                                <input type="text" class="  search-query form-control" placeholder="Buscar en toda la tienda" />
-                                <span class="input-group-btn">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input type="text" class="  search-query form-control" placeholder="Buscar en la tienda" />
+                        <span class="input-group-btn">
                                     <button class="btn btn-danger" type="button">
                                         <span class=" glyphicon glyphicon-search"></span>
-                                </button>
-                                </span>
-                            </div>
-                        </div>
-                        <!--MENÚ DE TOGGLE,en dispositivos moviles -->
-                        <div class="container-fluid">
-                            <div class="menu_toggle">
-                                <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-toggle-content"></i>
-                                <div class="menu-toggle-list">
-                                    <ul id="menu-toggle-content" class="menu-toggle-content collapse out">
-                                        <li>NUESTROS LIBROS</li>
-                                        <li data-toggle="collapse" data-target="#area-tematica" class="collapsed">
-                                            ÁREA TEMÁTICA <span class="glyphicon glyphicon-plus"></span>
-                                        </li>
-                                        <ul class="sub-menu collapse" id="area-tematica">
-                                            <li>Estudios de Posgrado</li>
-                                            <li>diseño y edificacion</li>
-                                            <li>Matemáticas e ingeniería</li>
-                                            <li>enseñansa de idiomas</li>
-                                            <li>siencias socioeconomicas</li>
-                                            <li>humanidades</li>
-                                            <li>universidad abierta y educacion a distancia</li>
-                                            <li>investigacion aplicada y multidisiplinaria</li>
-                                            <li>divulgación cientifica</li>
-                                        </ul>
-                                        <li><a href="#">E-BOOKS</a></li>
-                                        <li><a href="#">EVENTOS</a></li>
-                                        <li><a href="#">BLOG</a></li>
-                                        <li>CONTACTO</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        </button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="navbar-collapse collapse nav-menu-principal">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">NUESTROS LIBROS</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ÁREA TEMÁTICA<span class="glyphicon glyphicon-plus"></span></a>
+
+                            <ul class="dropdown-menu collapse">
+                                <li><a href="#">Estudios de Posgrado</a></li>
+                                <li><a href="#">DISEÑO Y EDIFICACIÓN</a></li>
+                                <li><a href="#">ENSEÑANZA DE IDIOMAS</a></li>
+                                <li><a href="#">CIENCIAS SOCIOECONÓMICAS</a></li>
+                                <li><a href="#">HUMANIDADES</a></li>
+                                <li><a href="#">INVESTIGACIÓN APLICADA Y MULTIDISCIPLINARIA</a></li>
+                                <li><a href="#">DIVULGACIÓN CIENTÍFICA</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li><a href="#">E-BOOKS</a></li>
+                        <li><a href="#">EVENTOS</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACTO</a></li>
                     </ul>
+
                 </div>
             </nav>
         </div>
@@ -253,42 +202,7 @@
                       1. Lineamientos Editoriales de la FES
           </a>
       </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="panel-body">
-                        <p>El Comité Editorial es un órgano colegiado cuya función central consiste en aprobar los trabajos propuestos para su publicación, siempre y cuando cumplan con los requisitos formales y de calidad establecidos en estos lineamientos, además de dar seguimiento al proceso de publicación de esos trabajos.</p>
-                        <h4>2.1 Integración</h4>
-                        <p>El Comité Editorial se integrará por los siguientes funcionarios de la Facultad:</p>
-                        <ul>
-                            <li>• El Director, quien fungirá como Presidente del Comité y contará con voto de calidad. En su ausencia será sustituido por el Coordinador de Servicios Académicos.</li>
-                            <li>• El Coordinador de Servicios Académicos, quien fungirá como Secretario Ejecutivo del Comité.</li>
-                            <li>• El Secretario General Académico.</li>
-                            <li>• El Secretario de Extensión Universitaria y Vinculación Institucional.</li>
-                            <li>• El Secretario de Estudios Profesionales.</li>
-                            <li>• El Coordinador de Estudios de Posgrado.</li>
-                            <li>• El Coordinador del Programa de Investigación.</li>
-                            <li>• El Coordinador de la Unidad de Investigación Multidisciplinaria.</li>
-                            <li>• El Coordinador del Centro de Enseñanza de Idiomas.</li>
-                            <li>• Los Jefes de las Divisiones Académicas.</li>
-                            <li>• El Jefe de la Unidad de Servicios Editoriales, quien fungirá como Secretario Técnico y de Actas del Comité.</li>
-                        </ul>
-                        <h4>2.2 Atribuciones</h4>
-                        <p>El Comité Editorial tendrá las siguientes atribuciones:</p>
-                        <ul>
-                            <li>• Establecer la política editorial de la Facultad.</li>
-                            <li>• Revisar y, en su caso, modificar la normatividad editorial a la que se ajustarán todas las etapas del proceso de publicación.</li>
-                            <li>• Actualizar periódicamente la normatividad del sistema editorial para considerar las nuevas formas de publicación que surjan, ya sean impresas, electrónicas o multimedia.</li>
-                            <li>• Autorizar la integración de los Comités Editoriales Internos de la Facultad, con base en la propuesta que haga cada División Académica.</li>
-                            <li>• Aprobar o rechazar la publicación de los diversos materiales que sean sometidos a su consideración.</li>
-                            <li>• Fijar prioridades y calendarizar las publicaciones que se autoricen.</li>
-                            <li>• Vigilar que los tiempos de publicación se cumplan.</li>
-                            <li>• Analizar y, en su caso, aprobar las propuestas de coediciones.</li>
-                            <li>• Gestionar los procedimientos para la protección de la propiedad intelectual de las obras publicadas por la FES Acatlán.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+        
 
 
 
@@ -303,10 +217,7 @@
                 </div>
                 <div aria-expanded="false" id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                     <div class="panel-body">
-                        <p>El Comité Editorial Interno estará compuesto por un mínimo de cinco miembros, siempre impar, los cuales serán nombrados por el Comité Editorial de la Facultad, a propuesta de la División o Coordinación correspondiente.</p>
-                        <p>El Comité Editorial Interno estará integrado por el Jefe de la División o Coordinador, en su caso, y académicos distinguidos, no funcionarios, que cuenten con publicaciones y de preferencia de tiempo completo en la institución.</p>
-                        <p>Los miembros del Comité Editorial Interno durarán en su cargo tres años, siendo facultad del Comité Editorial del plantel el prorrogar su nombramiento, por solo una vez, o su remoción.</p>
-                        <p>Cuando un miembro del Comité Editorial Interno falte 3 veces consecutivas ó 5 veces no consecutivas, será dado de baja y se nombrará a otro.</p>
+                        
 
                     </div>
                 </div>
@@ -668,8 +579,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     <script src="js/jquery.jcarousel.min.js"></script>
+
     <script src="js/bryan-body2.js"></script>
 
 </body>
