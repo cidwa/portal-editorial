@@ -1,36 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.pie{
+.pie {
     background-color: black;
     color: white;
 }
-    
+
+
 /*ul li{
     color: #909090;
     margin-left: 5%;        
     margin-top: 1em;
 }*/
 
-a:link{
+a:link {
     color: #909090;
     text-decoration: none;
 }
 
-a:visited{
+a:visited {
     color: #909090;
     text-decoration: none;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: #cb0404;
     transition-duration: .5s;
     text-decoration: none;
 }
 
-.social{
+.social {
     margin: 1em;
 }
 
@@ -39,38 +40,44 @@ ul li a:hover{
     margin-bottom: 10px;
 }
 
-
-.carac small{
+.carac small {
     color: #008000;
 }
+
 .carac {
-        color: #333333;
+    color: #333333;
 }
-.carac h2{
+
+.carac h2 {
     color: #f42434;
 }
 
-.carac h4{
+.carac h4 {
     color: #f42434;
 }
-
-
-
-
 
 .bordes {
     border: 1px solid #eaeaea;
-    
 }
 
 .bordes2 {
     background: #f8f8f8;
 }
 
-.espacio-bl .row{
+.espacio-bl .row {
     margin-top: 100px;
 }
 
-.logo-tam img{
-    width: 114x;
+
+/** stilos para comite-editorial.html*/
+
+div.panel-default >div.panel-collapse >div.panel-body > ul {
+    padding-left: 50px;
 }
+
+div.panel-default >div.panel-collapse >div.panel-body > ul> li>ul {
+    padding-left: 50px;
+}
+
+
+/** termina stilos para comite-editorial.html*/
