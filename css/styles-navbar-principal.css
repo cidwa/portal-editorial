@@ -1,94 +1,63 @@
 
-ul.menu_principal a:hover {
-    background: rgba(0, 0, 0, 0.9) !important;
-    transition-duration: 1s;
-    color: white !important;
-    
-}
-div.dropdown-menu{
-    display: none;
-    visibility: visible!important;
-    background: rgba(0, 0, 0, 0.9) !important;
-    left: -165px;
-    width: 1140px!important;
-    padding: 0px;
+
+li.dropdown > ul.dropdown-menu {
+    position: relative;
 }
 
-nav.navbar-principal{
+nav.navbar-principal ul.container {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav.navbar-principal {
+    overflow: none;
     background-color: transparent;
-    border-bottom: 5px solid #101010 !important;
+    border-bottom: 4px solid #101010 !important;
     border-left: none;
     border-right: none;
     padding: 0px;
     margin: 0px;
     margin-bottom: 15px;
-    
+    font-weight: bold;
 }
-nav.navbar-principal > div{
+
+nav.navbar-principal > div {
     padding-left: 0px;
 }
 
-/*modificación de fausto*/
-table.table{
-        margin-top: 15px;
-}
-table.table tr {
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 40px;
-    background: none;
-    color: white;
-}
-
-
-
-
-table.table>tbody>tr>td,
-table.table>tbody>tr>th,
-table.table>tfoot>tr>td,
-table.table>tfoot>tr>th {
-    border: 0;
-    padding-left: 180px;
-    
-
-}
-
-.table>thead>tr>td,
-.table>thead>tr>th {
-    border-bottom: 1px solid grey;
-    font-weight: bold;
-}
-
-<link rel="stylesheet" href="css/style_footer.css" .table>tfoot>tr>td,
-.table>tfoot>tr>th {
-    border-bottom: 1px solid grey;
-    font-weight: bold;
-}
-
-
-/* //modificación de fausto*/
-
-
-
-.form-control {
+div.nav-menu-principal >ul.navbar-nav>li>a {
     color: #333;
-    background: #f1f1f1;
-    border: none;
-    font-weight: normal;
 }
 
-.navbar-toggle {
-    float: left;
+div.nav-menu-principal >ul.navbar-nav>li>a {
+    color: #333;
 }
 
-.menu_principal {
-    list-style-type: none;
+div.nav-menu-principal >ul.navbar-nav>li {
+    border-right: 1px solid #d4d3d3;
+}
+
+div.nav-menu-principal {
     padding: 0px;
     margin: 0px;
-    font-weight: bold;
 }
-ul.menu_principal ul>li{
-    border-right: 1px solid #f1f1f1;
+
+nav.navbar-principal a:hover {
+    background: rgba(0, 0, 0, 0.9) !important;
+    transition-duration: 1s;
+    color: white !important;
+}
+
+div.nav-menu-principal ul.navbar-nav > li.dropdown > a.dropdown-toggle >span {
+    visibility: hidden;
+    float: right;
+}
+
+input.form-control {
+    color: #333;
+    background: rgba(242, 242, 242, 0.25);
+    border: none;
+    font-weight: normal;
 }
 
 #custom-search-input {
@@ -126,57 +95,12 @@ ul.menu_principal ul>li{
     -moz-border-radius: 3px;
     border-radius: 3px;
     color: #333;
-     z-index: 3;
-}
-
-
-
-@media (max-width: 1200px) {
-    ul.menu_principal ul.navbar-nav{
-                            /*media se agrega para desaparecer el menú principal*/
-        display: none;
-        visibility: hidden;
-    }
-    nav.navbar-principal{
-        padding-bottom: 5px;
-    }
-    
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,
-    .navbar-right {
-        float: none !important;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    }
-    
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-   
-    .collapse.in {
-        display: block !important;
-    }
-
-    #custom-search-input {
-                                /*barra de busqueda  */
-        margin: 0;
-        margin-top: 10px;
-        padding: 0;
-        width: 300px;
-        height: 30%;
-        float: right;
-    }
-    
-    
+    z-index: 3;
 }
 
 @media (max-width: 408px) {
-         #custom-search-input {
-                                /* barra de busqueda  */
+    #custom-search-input {
+        /* barra de busqueda  */
         margin: 0;
         margin-top: 10px;
         padding: 0;
@@ -186,46 +110,79 @@ ul.menu_principal ul>li{
     }
 }
 
-table.table a {
-    color: white;
+
+
+@media (min-width: 1200px) {
+    li.dropdown > ul.dropdown-menu {
+        position: absolute;
+        width: 1100px;
+        height: auto;
+        left: -150px;
+        
+    }
+     li.dropdown > ul.dropdown-menu li {
+         width: 530px;
+        height: 80px;
+        display: inline-block;
+
+    }
+     li.dropdown > ul.dropdown-menu >li >a {
+        width: 530px;
+        height: 80px;
+        align-content: center;
+        padding-left: 40%;
+        padding-top: 5%;
+    }
 }
 
-/*Salomon*/
-
-.fondo1 {
-    background: #14b1a6;
-    padding: 10px;
+@media (max-width: 1200px) {
+    li.dropdown > ul.dropdown-menu {
+        position: relative;
+        width: 100%;
+        box-shadow: none;
+    }
+    li.dropdown > ul.dropdown-menu >li >a {
+       
+        align-content: center;
+        padding-left: 4%;
+        padding-top: .7%;
+    }
+    
+    div.container >nav.navbar-default >.navbar-header {
+        float: none;
+    }
+    div.container >nav.navbar >div.navbar-header> button.navbar-toggle {
+        display: block !important;
+    }
+    div.container >nav.navbar >div.navbar-header {
+        display: inline-block!important;
+    }
+    div.container >nav.navbar-default >.navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    nav.navbar-default >.navbar-collapse.collapse {
+        display: none!important;
+    }
+    nav.navbar-default >div.navbar-collapse > ul.navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+        height: auto ;
+    }
+    nav.navbar-default >div.navbar-collapse >.navbar-nav>li {
+        float: none;
+    }
+    nav.navbar-default >div.navbar-collapse >.navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    nav.navbar-default >.collapse.in {
+        display: block !important;
+    }
+    nav.navbar-default >.navbar-collapse.in {
+        overflow-y: auto !important;
+    }
+    div.nav-menu-principal >ul.navbar-nav > li.dropdown > a.dropdown-toggle >span {
+        visibility: visible;
+    }
 }
-
-.fondo2 {
-    background: #e50446;
-    padding: 10px;
-}
-
-.fondo3 {
-    background: #97c11f;
-    padding: 10px;
-}
-
-.margen {
-    border: 2px dotted white;
-    text-align: center;
-}
-
-h2 {
-    color: white;
-}
-
-
-/*Salomon*/
-
-.espacio {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.espacio h2 {
-    color: white;
-}
-
-

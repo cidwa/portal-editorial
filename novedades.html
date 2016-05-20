@@ -3,20 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Libreria &#124; Caracteristicas</title>
+    <title>Librería &#124; Caracteristicas</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_footer.css">
     <link rel="stylesheet" href="css/styles_slider.css">
-    <link rel="stylesheet" href="css/styles-navbar-toggle.css">
     <link rel="stylesheet" href="css/styles-navbar-principal.css">
 
 </head>
 
 <body>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    
+
     <header>
         <div class="container-fluid super visible-lg-block visible-md-block">
             <nav class="navbar navbar-inverse top-links navbar-default">
@@ -125,133 +124,52 @@
         <!--Walter segundo menu-->
         <div class="container">
             <nav class="navbar navbar-default navbar-principal ">
-                <div class="container-fluid">
-                    <ul class="menu_principal">
 
-
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">NUESTROS LIBROS</a></li>
-
-                            <li class="btn-group">
-                                <a href="#" class=" dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">ÁREA TEMÁTICA <b class="caret"></b>
-                                    </a>
-
-                                <div class="container dropdown-menu" id="tabla-container">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="">> Estudios de Posgrado</a>
-                                                </td>
-                                                <td>
-                                                    <a href="">> Investigación Aplicada y Multidiciplinaria</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <a href="">> Ciencias Juridicas</a>
-                                                </td>
-
-                                                <td>
-                                                    <a href="">> Ciencias Socioeconómicas</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <a href="">> Diseño y Edificación</a>
-                                                </td>
-                                                <td><a href="">> Humanidades</a></td>
-                                            </tr>
-                                            <tr>
-
-                                                <td> <a href="">> Matematicás e ingeniería </a>
-                                                </td>
-                                                <td>
-                                                    <a href="">> Universidad Abierta y Educación a Distancia </a>
-                                                </td>
-
-                                            </tr>
-                                            <tr>
-
-
-                                                <td> <a href="">> Enseñanza de Idiomas</a>
-                                                </td>
-                                                <td><a href="">> Divulgación Cientifica</a>
-                                                </td>
-                                            </tr>
-
-
-                                        </tbody>
-
-                                    </table>
-                                </div>
-
-                            </li>
-
-                            <li><a href="#">E-BOOKS</a></li>
-                            <li><a href="#">EVENTOS</a></li>
-
-                            <li><a href="#">BLOG</a></li>
-                            <li><a href="#">CONTACTO</a></li>
-                        </ul>
-
-
-
-                        <div id="custom-search-input">
-                            <div class="input-group col-md-12">
-                                <input type="text" class="  search-query form-control" placeholder="Buscar en toda la tienda" />
-                                <span class="input-group-btn">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input type="text" class="  search-query form-control" placeholder="Buscar en la tienda" />
+                        <span class="input-group-btn">
                                     <button class="btn btn-danger" type="button">
                                         <span class=" glyphicon glyphicon-search"></span>
-                                </button>
-                                </span>
-                            </div>
-                        </div>
+                        </button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="navbar-collapse collapse nav-menu-principal">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">NUESTROS LIBROS</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ÁREA TEMÁTICA<span class="glyphicon glyphicon-plus"></span></a>
+
+                            <ul class="dropdown-menu collapse">
+                                <li><a href="#">Estudios de Posgrado</a></li>
+                                <li><a href="#">DISEÑO Y EDIFICACIÓN</a></li>
+                                <li><a href="#">ENSEÑANZA DE IDIOMAS</a></li>
+                                <li><a href="#">CIENCIAS SOCIOECONÓMICAS</a></li>
+                                <li><a href="#">HUMANIDADES</a></li>
+                                <li><a href="#">INVESTIGACIÓN APLICADA Y MULTIDISCIPLINARIA</a></li>
+                                <li><a href="#">DIVULGACIÓN CIENTÍFICA</a></li>
 
 
-                        <!--MENÚ DE TOGGLE,en dispositivos moviles -->
-
-                        <div class="container-fluid">
-                            <div class="menu_toggle">
-                                <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-toggle-content"></i>
-
-                                <div class="menu-toggle-list">
-
-                                    <ul id="menu-toggle-content" class="menu-toggle-content collapse out">
-
-                                        <li>NUESTROS LIBROS</li>
-
-                                        <li data-toggle="collapse" data-target="#area-tematica" class="collapsed">
-                                            ÁREA TEMÁTICA <span class="glyphicon glyphicon-plus"></span>
-                                        </li>
-
-                                        <ul class="sub-menu collapse" id="area-tematica">
-                                            <li>Estudios de Posgrado</li>
-                                            <li>diseño y edificacion</li>
-                                            <li>Matemáticas e ingeniería</li>
-                                            <li>enseñansa de idiomas</li>
-                                            <li>siencias socioeconomicas</li>
-                                            <li>humanidades</li>
-                                            <li>universidad abierta y educacion a distancia</li>
-                                            <li>investigacion aplicada y multidisiplinaria</li>
-                                            <li>divulgación cientifica</li>
-                                        </ul>
-
-
-                                        <li><a href="#">E-BOOKS</a></li>
-                                        <li><a href="#">EVENTOS</a></li>
-                                        <li><a href="#">BLOG</a></li>
-                                        <li>CONTACTO</li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                            </ul>
+                        </li>
+                        <li><a href="#">E-BOOKS</a></li>
+                        <li><a href="#">EVENTOS</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACTO</a></li>
                     </ul>
+
                 </div>
             </nav>
-
         </div>
         <!--//Walter segundo menu-->
 
@@ -373,7 +291,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <img src="http://www.libros.unam.mx/Portadas/9786070272868.jpg" alt="" class="img img-responsive" style="width:192.5px; height: 265px;">
                         <div class="col-md-12">
-                            <p class="text-center"style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">La música delgada</p>
+                            <p class="text-center" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">La música delgada</p>
                         </div>
                         <div class="col-md-12">
                             <p class="text-center" style="font-weight: bold;">MXN$ 160</p>
@@ -515,12 +433,14 @@
 
         </div>
     </div>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     <script src="js/jquery.jcarousel.min.js"></script>
+
     <script src="js/bryan-body2.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
 
 </body>

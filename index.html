@@ -13,11 +13,10 @@
     <link rel="stylesheet" type="text/css" href="css/styles-header.css" />
     <link rel="stylesheet" href="css/styles_slider.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="css/styles-navbar-toggle.css">
 
 </head>
 
-<body> 
+<body>
     <!--Primer menu de navegación por Cairo -->
     <header>
         <div class="container-fluid super visible-lg-block visible-md-block">
@@ -124,136 +123,56 @@
 
         <!--//Primer menu de navegación por Cairo -->
         <br>
+
         <!--Walter segundo menu-->
         <div class="container">
             <nav class="navbar navbar-default navbar-principal ">
-                <div class="container-fluid">
-                    <ul class="menu_principal">
 
-
-                            <ul class="nav navbar-nav">
-                                <li><a href="#">NUESTROS LIBROS</a></li>
-
-                                <li class="btn-group">
-                                    <a href="#" class=" dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">ÁREA TEMÁTICA <b class="caret"></b>
-                                    </a>
-
-                                    <div class="container dropdown-menu" id="tabla-container">
-                                        <table class="table">
-                                            <tbody>
-                                                <tr>
-                                                    <td>
-                                                        <a href="">> Estudios de Posgrado</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="">> Investigación Aplicada y Multidiciplinaria</a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="">> Ciencias Juridicas</a>
-                                                    </td>
-
-                                                    <td>
-                                                        <a href="">> Ciencias Socioeconómicas</a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="">> Diseño y Edificación</a>
-                                                    </td>
-                                                    <td><a href="">> Humanidades</a></td>
-                                                </tr>
-                                                <tr>
-
-                                                    <td> <a href="">> Matematicás e ingeniería </a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="">> Universidad Abierta y Educación a Distancia </a>
-                                                    </td>
-
-                                                </tr>
-                                                <tr>
-
-
-                                                    <td> <a href="">> Enseñanza de Idiomas</a>
-                                                    </td>
-                                                    <td><a href="">> Divulgación Cientifica</a>
-                                                    </td>
-                                                </tr>
-
-
-                                            </tbody>
-
-                                        </table>
-                                    </div>
-
-                                </li>
-
-                                <li><a href="#">E-BOOKS</a></li>
-                                <li><a href="#">EVENTOS</a></li>
-
-                                <li><a href="#">BLOG</a></li>
-                                <li><a href="#">CONTACTO</a></li>
-                            </ul>
-
-
-
-                        <div id="custom-search-input">
-                            <div class="input-group col-md-12">
-                                <input type="text" class="  search-query form-control" placeholder="Buscar en toda la tienda" />
-                                <span class="input-group-btn">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input type="text" class="  search-query form-control" placeholder="Buscar en la tienda" />
+                        <span class="input-group-btn">
                                     <button class="btn btn-danger" type="button">
                                         <span class=" glyphicon glyphicon-search"></span>
-                                </button>
-                                </span>
-                            </div>
-                        </div>
+                        </button>
+                        </span>
+                    </div>
+                </div>
 
-                    
-                    <!--MENÚ DE TOGGLE,en dispositivos moviles -->
-                    
-                     <div class="container-fluid">
-                            <div class="menu_toggle">
-                                <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-toggle-content"></i>
+                <div class="navbar-collapse collapse nav-menu-principal">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">NUESTROS LIBROS</a></li>
 
-                                <div class="menu-toggle-list">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ÁREA TEMÁTICA<span class="glyphicon glyphicon-plus"></span></a>
 
-                                    <ul id="menu-toggle-content" class="menu-toggle-content out collapse ">
-
-                                        <li>NUESTROS LIBROS</li>
-
-                                        <li data-toggle="collapse" data-target="#area-tematica" class="collapsed">
-                                            ÁREA TEMÁTICA <span class="glyphicon glyphicon-plus"></span>
-                                        </li>
-
-                                        <ul class="sub-menu collapse" id="area-tematica">
-                                            <li>Estudios de Posgrado</li>
-                                            <li>diseño y edificacion</li>
-                                            <li>Matemáticas e ingeniería</li>
-                                            <li>enseñansa de idiomas</li>
-                                            <li>siencias socioeconomicas</li>
-                                            <li>humanidades</li>
-                                            <li>universidad abierta y educacion a distancia</li>
-                                            <li>investigacion aplicada y multidisiplinaria</li>
-                                            <li>divulgación cientifica</li>
-                                        </ul>
+                            <ul class="dropdown-menu collapse">
+                                <li><a href="#">Estudios de Posgrado</a></li>
+                                <li><a href="#">DISEÑO Y EDIFICACIÓN</a></li>
+                                <li><a href="#">ENSEÑANZA DE IDIOMAS</a></li>
+                                <li><a href="#">CIENCIAS SOCIOECONÓMICAS</a></li>
+                                <li><a href="#">HUMANIDADES</a></li>
+                                <li><a href="#">INVESTIGACIÓN APLICADA Y MULTIDISCIPLINARIA</a></li>
+                                <li><a href="#">DIVULGACIÓN CIENTÍFICA</a></li>
 
 
-                                        <li><a href="#">E-BOOKS</a></li>
-                                        <li><a href="#">EVENTOS</a></li>
-                                        <li><a href="#">BLOG</a></li>
-                                        <li >CONTACTO</li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                            </ul>
+                        </li>
+                        <li><a href="#">E-BOOKS</a></li>
+                        <li><a href="#">EVENTOS</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACTO</a></li>
                     </ul>
+
                 </div>
             </nav>
-
         </div>
         <!--//Walter segundo menu-->
     </header>
@@ -261,7 +180,7 @@
     <!--Slider de Diego-->
     <div class="container">
         <section class="row">
-           <!--
+            <!--
                 <div class="col-lg-3 col-md-3 col-sm-3">
                 <ul>
                     <li class="categoria">Categorias</li>
@@ -280,67 +199,68 @@
             <div class="col-sm-2"></div>
             <div class=" col-sm-8">
                 <div>
-                           <!--SLider-->
-                              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                              <!-- Indicators -->
-                              <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                                <li data-target="#myCarousel" data-slide-to="3"></li>
-                                <li data-target="#myCarousel" data-slide-to="4"></li>
-                              </ol>
-                              <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                  <img class="first-slide" src="slider/assets/1.jpg" alt="Tema">
-                                  <div class="container">
+                    <!--SLider-->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="first-slide" src="slider/assets/1.jpg" alt="Tema">
+                                <div class="container">
                                     <div class="carousel-caption">
-                                      
+
                                     </div>
-                                  </div>
                                 </div>
-                                <div class="item">
-                                  <img class="second-slide" src="slider/assets/2.jpg" alt="Pollo">
-                                  <div class="container">
+                            </div>
+                            <div class="item">
+                                <img class="second-slide" src="slider/assets/2.jpg" alt="Pollo">
+                                <div class="container">
                                     <div class="carousel-caption">
-                                    
+
                                     </div>
-                                  </div>
                                 </div>
-                                <div class="item">
-                                  <img class="third-slide" src="slider/assets/3.jpg" alt="Pescado">
-                                  <div class="container">
+                            </div>
+                            <div class="item">
+                                <img class="third-slide" src="slider/assets/3.jpg" alt="Pescado">
+                                <div class="container">
                                     <div class="carousel-caption">
-                                      
+
                                     </div>
-                                  </div>
                                 </div>
-                                <div class="item">
-                                  <img class="third-slide" src="slider/assets/4.jpg" alt="Pescado">
-                                  <div class="container">
+                            </div>
+                            <div class="item">
+                                <img class="third-slide" src="slider/assets/4.jpg" alt="Pescado">
+                                <div class="container">
                                     <div class="carousel-caption">
-                                     
+
                                     </div>
-                                  </div>
                                 </div>
-                                <div class="item">
-                                  <img class="third-slide" src="slider/assets/5.jpg" alt="Pescado">
-                                  <div class="container">
+                            </div>
+                            <div class="item">
+                                <img class="third-slide" src="slider/assets/5.jpg" alt="Pescado">
+                                <div class="container">
                                     <div class="carousel-caption">
-                                      
+
                                     </div>
-                                  </div>
                                 </div>
-                              </div>
-                              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                              </a>
-                              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                              </a>
-    </div><!-- /.carousel -->
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!-- /.carousel -->
                 </div>
             </div>
             <div class="col-sm-2"></div>
@@ -378,7 +298,7 @@
     <!--Empieza la sección de Bryan-->
     <div class="container espacio-bl">
         <div class="col-md-12">
-            <div class=" titulo row" >
+            <div class=" titulo row">
                 <h3 class="col-md-10 col-sm-10 col-xs-8">Libros del Mes</h3>
                 <div class="col-md-2 col-sm-2 col-xs-4">
                     <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
@@ -398,7 +318,7 @@
                                 <div class="caption">
                                     <h4 class="subtitulo">Jóvenes cuentacuentos en la librería Jaime García Terrés</h4>
                                     <p>MXN $0</p>
-                                  
+
                                 </div>
                             </div>
                         </li>
@@ -413,7 +333,7 @@
                                 <div class="caption">
                                     <h4 class="subtitulo">Jóvenes cuentacuentos en la librería Jaime García Terrés</h4>
                                     <p>MXN $0</p>
-                                  
+
                                 </div>
                             </div>
                         </li>
@@ -428,7 +348,7 @@
                                 <div class="caption">
                                     <h4 class="subtitulo">Jóvenes cuentacuentos en la librería Jaime García Terrés</h4>
                                     <p>MXN $0</p>
-                                   
+
                                 </div>
                             </div>
                         </li>
@@ -443,7 +363,7 @@
                                 <div class="caption">
                                     <h4 class="subtitulo">Jóvenes cuentacuentos en la librería Jaime García Terrés</h4>
                                     <p>MXN $0</p>
-                                   
+
                                 </div>
                             </div>
                         </li>
@@ -458,7 +378,7 @@
                                 <div class="caption">
                                     <h4 class="subtitulo">Jóvenes cuentacuentos en la librería Jaime García Terrés</h4>
                                     <p>MXN $0</p>
-                                   
+
                                 </div>
                             </div>
                         </li>
@@ -658,7 +578,7 @@
                 <h4>Sistema</h4>
                 <ul>
                     <li class="espli">> <a href="#">Sistema</a></li>
-                  
+
                 </ul>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -680,18 +600,18 @@
 
         </div>
     </div>
-     
-    
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <script src="js/jquery.jcarousel.min.js"></script>
 
     <script src="js/bryan-body2.js"></script>
-    
-    
-    
+
+
+
 </body>
 
 </html>
