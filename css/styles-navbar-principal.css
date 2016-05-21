@@ -46,6 +46,8 @@ nav.navbar-principal a:hover {
     background: rgba(0, 0, 0, 0.9) !important;
     transition-duration: 1s;
     color: white !important;
+    font-weight: bold;
+    
 }
 
 div.nav-menu-principal ul.navbar-nav > li.dropdown > a.dropdown-toggle >span {
@@ -118,20 +120,24 @@ input.form-control {
         width: 1100px;
         height: auto;
         left: -150px;
+        background-color: rgba(0, 0, 0, 0.81);
         
     }
      li.dropdown > ul.dropdown-menu li {
          width: 530px;
         height: 80px;
         display: inline-block;
+         color: white;
+         padding-left:  15%;
+         padding-top: 2%;
+         
 
     }
      li.dropdown > ul.dropdown-menu >li >a {
-        width: 530px;
-        height: 80px;
+        width: auto;
+        height: 50%;
         align-content: center;
-        padding-left: 40%;
-        padding-top: 5%;
+         color: rgba(255, 254, 254, 0.83);
     }
 }
 
