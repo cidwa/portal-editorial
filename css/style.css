@@ -1,6 +1,5 @@
-#walter={
-    color: red;
-}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -81,9 +80,16 @@ div.panel-default >div.panel-collapse >div.panel-body > ul {
 div.panel-default >div.panel-collapse >div.panel-body > ul> li>ul {
     padding-left: 50px;
 }
+#lineamientos{
+    float: right;
+    padding-right: 10%;
+}
 
 
 /** termina stilos para comite-editorial.html*/
 
 
 /* Zoom para las imagenes*/
+
+
+
