@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -70,29 +68,35 @@ ul li a:hover {
     margin-top: 100px;
 }
 
-div.panel-default >div.panel-heading{
+div.panel-default >div.panel-heading {
     padding: 0 !important;
 }
+
+
 /** stilos para comite-editorial.html*/
-div.panel-default >div.panel-heading >h4{
+
+div.panel-default >div.panel-heading >h4 {
     width: inherit;
     height: inherit;
-    padding:  0px !important;
-    
+    padding: 0px !important;
 }
-div.panel-default >div.panel-heading >h4>a{
+
+div.panel-default >div.panel-heading >h4>a {
     padding: 10px !important;
     display: block;
     color: #337ab7;
 }
-div.panel-default >div.panel-heading >h4>a:hover{
+
+div.panel-default >div.panel-heading >h4>a:hover {
     color: #023867;
     text-decoration: underline;
 }
+
 div.panel-default >div.panel-collapse {
     padding-left: 3%;
     padding-right: 3%;
 }
+
 div.panel-default >div.panel-collapse >div.panel-body > ul {
     padding-left: 4%;
     text-align: justify;
@@ -102,27 +106,20 @@ div.panel-default >div.panel-collapse >div.panel-body > ul> li>ul {
     padding-left: 3%;
     text-align: justify;
 }
+
 div.panel-default >div.panel-collapse >div.panel-body > p {
-    
     text-align: justify;
 }
-#lineamientos{
-    float: right;
-    padding: .8%;
-    
-   
-}
-.lista-sin-punto >li{
-    list-style: none;    
-}
-.lista-con-espacio >li{
-    margin-left: 4%;
-}
-.invisible{
-  visibility:hidden;
+
+.lista-sin-punto >li {
+    list-style: none;
 }
 
-#pdf_view{
+.lista-con-espacio >li {
+    margin-left: 4%;
+}
+
+#pdf_view {
     padding: 5% 10% 3% 5%;
     background-color: rgba(0, 0, 0, 0.74);
     position: fixed;
@@ -130,9 +127,9 @@ div.panel-default >div.panel-collapse >div.panel-body > p {
     height: 100%;
     width: 100%;
     visibility: hidden;
-    
 }
-#cerrar{
+
+#cerrar {
     height: 50px;
     width: 40px;
     position: absolute;
@@ -141,9 +138,9 @@ div.panel-default >div.panel-collapse >div.panel-body > p {
     top: .10%;
     margin: 0;
     padding: 0;
-        
 }
-#cerrar >button{
+
+#cerrar >button {
     height: inherit;
     width: inherit;
     position: fixed;
@@ -155,25 +152,56 @@ div.panel-default >div.panel-collapse >div.panel-body > p {
     border-color: black !important;
 }
 
+
 /*
 PDFObject appends the classname "pdfobject-container" to the target element.
 This enables you to style the element differently depending on whether the embed was successful.
 */
+
 .pdfobject-container {
-	position:fixed;
+    position: fixed;
     width: 80%;
     height: 600px;
     background-color: black;
     z-index: 100;
 }
 
+
 /* PDFObject automatically assigns the class name "pdfobject" to the <embed> element */
-.pdfobject { border: solid 1px #666; }
+
+.pdfobject {
+    border: solid 1px #666;
+}
+
+
+#lineamientos {
+    float: right;
+    padding: .8%;
+            visibility: visible;
+
+}
+
+#lineamientos-2 {
+    float: right;
+    padding: .8%;
+            visibility: hidden;
+
+}
+
+
+@media (max-width:700px) {
+    #lineamientos {
+        visibility: hidden;
+    }
+    #lineamientos-2 {
+        visibility: visible;
+    }
+}
 
 
 
 
 /** termina stilos para comite-editorial.html*/
 
-/* Zoom para las imagenes*/
 
+/* Zoom para las imagenes*/
