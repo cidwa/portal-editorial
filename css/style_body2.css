@@ -130,8 +130,9 @@ background-color: black;
 }
 
 /** Comite-editorial-interno LINEAMIENTOS ESTILOS **/
+
 .margen-panel-body {
-    padding-left: 50px;
+    padding-left: 50px !important;
 }
 .margen-h-body {
     padding-left: 25px;
@@ -151,4 +152,9 @@ background-color: black;
 
 .none-style:focus{
     outline-style: none;
+}
+
+.margen-panel-body {
+    padding-left: 50px;
+
 }
