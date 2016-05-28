@@ -16,10 +16,29 @@
     <link rel="stylesheet" href="css/styles_slider.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
+
+
+
+
+
+
 </head>
 
 <body>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+       
+    <div id="pdf_view">
+        <div id="pdf1"></div>
+        <div id="cerrar">
+            <button onclick="ocultar()" type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-remove "></span>
+            </button>
+        </div>
+    </div>
+    
+    
+
+
 
     <header>
         <div class="container-fluid super visible-lg-block visible-md-block">
@@ -49,7 +68,7 @@
         </div>
         <!--//Primer menu de navegación por Cairo -->
         <br>
-        <!--Walter segundo menu-->
+       <!--Walter segundo menu-->
         <div class="container">
             <nav class="navbar navbar-default navbar-principal ">
 
@@ -76,7 +95,7 @@
                         <li><a href="index.html">NUESTROS LIBROS</a></li>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ÁREA TEMÁTICA<span class="glyphicon glyphicon-plus"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ÁREA <span class="glyphicon glyphicon-chevron-down"></span></a>
 
                             <ul class="dropdown-menu collapse">
                                 <li><a href="#">> Estudios de Posgrado</a></li>
@@ -89,6 +108,7 @@
                                 <li><a href="#">> Humanidades</a></li>
                                 <li><a href="#">> Universidad Abierta y Educación a Distancia</a></li>
                                 <li><a href="#">> Divulgacion Cientifica</a></li>
+
 
                             </ul>
                         </li>
@@ -104,10 +124,33 @@
         <!--//Walter segundo menu-->
     </header>
 
+
+
+
+
+
+
+
+
+
+
+
     <div class="container" data-example-id="collapse-accordion">
-        <h2>lineamientos Comite
-         <a id="lineamientos" img href="pdf/Lineamientos_Comite.pdf" target="_blank" ><img src="img/pdf.png" alt="Smiley face" height="30" width="30"></a>
-        </h2>
+
+        <div class="container">
+
+            <h2>Lineamientos Editoriales
+            <a id="lineamientos" onclick="mostrar()" ><img  src="img/pdf.png" alt="Smiley face" height="30" width="30"></a>
+            
+            <a id="lineamientos-2" img href="pdf/Lineamientos_Comite.pdf" target="_blank" ><img src="img/pdf.png" alt="Smiley face" height="30" width="30"></a>
+
+            </h2>
+            
+
+
+        </div>
+
+
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
 
@@ -284,9 +327,9 @@
 
                         <p>Todo material que previamente haya sido editado por la Facultad y se desee reimprimir no será sometido a dictamen.</p>
                         <ul>
-                            <li>o La División a la que esté adscrito el autor solicitará al Secretario Ejecutivo del Comité Editorial de la Facultad la reimpresión del trabajo.</li>
-                            <li>o El Secretario Ejecutivo investigará si la impresión anterior se ha agotado, la fecha en que se puso en circulación el trabajo, el número de ejemplares publicados y el número de clientes potenciales.</li>
-                            <li>o Si la publicación se ha agotado y existen clientes potenciales, el Secretario Ejecutivo autorizará a la Unidad de Servicios Editoriales su reimpresión. El número de ejemplares se determinará con base en el tiempo en que se agotó la impresión anterior y el número de compradores potenciales.</li>
+                            <li>La División a la que esté adscrito el autor solicitará al Secretario Ejecutivo del Comité Editorial de la Facultad la reimpresión del trabajo.</li>
+                            <li>El Secretario Ejecutivo investigará si la impresión anterior se ha agotado, la fecha en que se puso en circulación el trabajo, el número de ejemplares publicados y el número de clientes potenciales.</li>
+                            <li>Si la publicación se ha agotado y existen clientes potenciales, el Secretario Ejecutivo autorizará a la Unidad de Servicios Editoriales su reimpresión. El número de ejemplares se determinará con base en el tiempo en que se agotó la impresión anterior y el número de compradores potenciales.</li>
                         </ul>
                     </div>
                 </div>
@@ -302,9 +345,9 @@
                 <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
                     <div class="panel-body">
                         <ul>
-                            <li>o Toda reedición se dictaminará como si fuera la primera edición.</li>
-                            <li>o Si la anterior edición ya se agotó, se pondrá a consideración del Comité su posible reedición.</li>
-                            <li>o Se determinará el número de ejemplares con base en el número de compradores potenciales y el tiempo en que se desplazó la edición anterior.</li>
+                            <li>Toda reedición se dictaminará como si fuera la primera edición.</li>
+                            <li>Si la anterior edición ya se agotó, se pondrá a consideración del Comité su posible reedición.</li>
+                            <li>Se determinará el número de ejemplares con base en el número de compradores potenciales y el tiempo en que se desplazó la edición anterior.</li>
                         </ul>
 
                     </div>
@@ -392,7 +435,7 @@
                     <div class="panel-body">
                         <p>Para evitar retrasos y modificaciones sustanciales en la edición de un documento. Se deberán cumplir los siguientes lineamientos:</p>
                         <h4>10.1 Revisiones y correcciones</h4>
-                        <ul>
+                        <ul class="lista-sin-punto">
                             <li>a) La Unidad de Servicios Editoriales llevará a cabo el proceso de corrección y formación tipográfica y al concluir las primeras galeras éstas serán turnadas al órgano correspondiente.</li>
                             <li>b) El órgano turnará, para una primera revisión, el documento al autor, quién en un plazo no mayor de 10 días hábiles lo regresará a la Unidad de Servicios Editoriales con las observaciones señaladas sobre las galeras.</li>
                             <li>c) Una vez que la Unidad de Servicios Editoriales realice las correcciones que resulten del inciso b) y edite el documento, se enviarán las pruebas finales del capítulo al órgano para que se lleve a cabo una última revisión y se otorgue el visto bueno por parte del autor, debiendo regresarse el documento a la citada Unidad, en un plazo máximo de 10 días hábiles después de su recepción.</li>
@@ -405,7 +448,7 @@
                         <p>Las diferentes publicaciones de la Facultad serán editadas conforme a los criterios editoriales determinados por la Unidad de Servicios Editoriales, las dimensiones de las mismas serán de acuerdo a las necesidades de la obra y podrán tener los siguientes tamaños:</p>
                         <ul>
                             <li>Papel
-                                <ul>
+                                <ul class="lista-sin-punto">
                                     <li>- 10.5 x 17.0 cm. (1/4 de oficio), éstas son las dimensiones del minilibro y tendrá una extensión máxima de 40 cuartillas y mínimo de 20 más o menos.</li>
                                     <li>- 14.0 x 21.5 cm. (1/2 carta)</li>
                                     <li>- 17.0 x 21.5 cm. (1/2 oficio)</li>
@@ -433,7 +476,7 @@
                         </ul>
                         <h4>Citación</h4>
                         <p>En la elaboración de citas se sugiere utilizar la siguiente presentación:</p>
-                        <ul>
+                        <ul class="lista-sin-punto">
                             <li>1. Ramón Tamames, La Unión Europea, tercera edición, Madrid, Alianza Editorial, serie Alianza Universidad Textos, núm. 146,1996, pp. 69 y ss.</li>
                             <li>2. José Isidro Saucedo González, “El estado trasnacional”, Boletín Mexicano de Derecho Comparado, nueva serie, año XXXVIII, núm. 112, enero-abril de 2005, pp. 223-271.</li>
                             <li>3. Rodolfo Vergara, “Estudio introductoria”, en March, James G. y Olsen, Johan P., El redescubrimiento de las instituciones: La base organizativa de la política, México, FCE/Colegio Nacional de Ciencias Políticas y Administración Pública, colección Nuevas Lecturas de Política y Gobierno, 1997, pp. 19 y ss.</li>
@@ -596,12 +639,12 @@ Anexo 2: Formatos       </a>
                         <p>FACULTAD DE ESTUDIOS SUPERIORES ACATLÁN ÁREA Oficio FESA/ / / ASUNTO: Dictamen de libro. AL DICTAMINADOR P r e s e n t e. En conocimiento de su sólida formación y distinguida trayectoria académica, me permito solicitarle la dictaminación para el libro titulado NOMBRE, con el objeto de determinar su posible publicación. En caso de favorecernos con su apoyo, le agradecería emitir su dictamen de acuerdo al formato adjunto y enviarlo a esta ÁREA en un plazo de 30 días naturales, contados a partir de la fecha de recepción del presente. Sin otro particular, le agradezco de antemano su colaboración.</p>
                         <p>A T E N T A M E N T E “POR MI RAZA HABLARÁ MI ESPÍRITU” Santa Cruz Acatlán, Estado de México, a FECHA. Responsable del área Nombre</p>
                         <h4>Formato para dictamen</h4>
-                        <ul>
+                        <ul class="lista-sin-punto">
                             <li>1. DICTAMEN DIRIGIDO AL SOLICITANTE.</li>
                             <li>2. TÍTULO DEL LIBRO.</li>
                             <li>3. EXTENSIÓN EN PÁGINAS.</li>
                             <li>4. PLANTEAMIENTO DEL PROBLEMA
-                                <ul>
+                                <ul class="lista-sin-punto">
                                     <li>a. Originalidad e importancia del problema</li>
                                     <li>¿El tema estudiado se inserta en una discusión actual?</li>
                                     <li>b. Planteamiento del problema</li>
@@ -611,7 +654,7 @@ Anexo 2: Formatos       </a>
                                 </ul>
                             </li>
                             <li>5. DESARROLLO
-                                <ul>
+                                <ul class="lista-sin-punto">
                                     <li>a. Estructura y articulación del tema estudiado</li>
                                     <li>¿Existe una exposición sistematizada u ordenada del tema?</li>
                                     <li>b. Análisis sustantivo del problema y solución planteada</li>
@@ -657,7 +700,7 @@ Anexo 3: Ruta crítica para publicación        </a>
                 </div>
                 <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourteen">
                     <div class="panel-body">
-                        <ul>
+                        <ul class="lista-con-espacio">
                             <li>Autor</li>
                             <p>Entrega el archivo electrónico e impresión del material, que se propone para editar, a la División, Coordinación o Jefatura de Programa.</p>
                             <li>Jefatura de Programa</li>
@@ -764,17 +807,51 @@ Anexo 3: Ruta crítica para publicación        </a>
         <div class="row footer2">
 
 
-            <p class="text-center">© 2016 UNAM - Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución.
-                <br> Dirección General de Publicaciones y Fomento Editorial | Desarrollado por el Club de Investigación y Desarrollo Web Acatlan</p>
+            <p class="text-center">Hecho en México, todos los derechos reservados 2016. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución. <a href="creditos.html">Créditos</a></p>
+            <div class="footer3">
+                <p class="text-center">Sitio Web Administrado por el Departamento de Servicio de Computo</p>
+            </div>
 
 
         </div>
+    </div>
+    </div>
+    </header>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="js/jquery.jcarousel.min.js"></script>
-        <script src="js/bryan-body2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <script src="js/bryan-body2.js"></script>
+
+
+
+    <script src="/js/pdfobject.min.js"></script>
+    <script>
+        var options = {
+            page: 2,
+            pdfOpenParams: {
+                navpanes: 1,
+                view: "FitH",
+                pagemode: "thumbs"
+            }
+        };
+
+        PDFObject.embed("/pdf/Lineamientos_Comite.pdf", "#pdf1", options);
+    </script>
+
+    <script>
+        function ocultar() {
+            document.getElementById("pdf_view").style.visibility = "hidden";
+        }
+    </script>
+    <script>
+        function mostrar() {
+            document.getElementById("pdf_view").style.visibility = "visible";
+        }
+    </script>
+
+
 
 </body>
 
