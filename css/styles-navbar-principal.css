@@ -28,6 +28,11 @@ nav.navbar-principal > div {
 div.nav-menu-principal >ul.navbar-nav>li>a {
     color: #333;
 }
+
+div.nav-menu-principal >ul.navbar-nav>li>a {
+    color: #333;
+}
+
 div.nav-menu-principal >ul.navbar-nav>li {
     border-right: 1px solid #d4d3d3;
 }
@@ -35,7 +40,6 @@ div.nav-menu-principal >ul.navbar-nav>li {
 div.nav-menu-principal {
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
 }
 
 nav.navbar-principal a:hover {
@@ -47,8 +51,8 @@ nav.navbar-principal a:hover {
 }
 
 div.nav-menu-principal ul.navbar-nav > li.dropdown > a.dropdown-toggle >span {
+    visibility: hidden;
     float: right;
-    margin-left:  50px;
 }
 
 input.form-control {

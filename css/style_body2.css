@@ -128,39 +128,3 @@ background-color: black;
     color: white;
     right: 15px;
 }
-
-/** Comite-editorial-interno LINEAMIENTOS ESTILOS **/
-
-.margen-panel-body {
-    padding-left: 50px !important;
-}
-.margen-h-body {
-    padding-left: 25px;
-}
-
-.margen-super-body {
-    padding-left: 60px;
-}
-
-.none-style {
-   text-decoration: none;
-    
-}
-.none-style:hover, .none-style:focus, .none-style:active{
-    text-decoration: none;
-}
-
-.none-style:focus{
-    outline-style: none;
-}
-
-.margen-panel-body {
-    padding-left: 50px;
-
-}
-
-#lineamientos{
-    float: right;
-    padding-top: 30px;
-
-}
