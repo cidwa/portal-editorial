@@ -159,8 +159,35 @@ background-color: black;
 
 }
 
-#lineamientos{
+/* PDFObject automatically assigns the class name "pdfobject" to the <embed> element */
+
+.pdfobject {
+    border: solid 1px #666;
+}
+
+
+#lineamientos {
     float: right;
-    padding-top: 30px;
+    padding: .8%;
+            visibility: visible;
 
 }
+
+#lineamientos-2 {
+    float: right;
+    padding: .8%;
+            visibility: hidden;
+
+}
+
+
+@media (max-width:700px) {
+    #lineamientos {
+        visibility: hidden;
+    }
+    #lineamientos-2 {
+        visibility: visible;
+    }
+}
+
+
