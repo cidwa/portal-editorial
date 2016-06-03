@@ -13,11 +13,20 @@
     <link rel="stylesheet" type="text/css" href="css/styles-header.css" />
     <link rel="stylesheet" href="css/styles_slider.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <div id="pdf_view">
+        <div id="pdf1"></div>
+        <div id="cerrar">
+            <button onclick="ocultar()" type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-remove "></span>
+            </button>
+        </div>
+    </div>
+
     <header>
         <div class="container-fluid super visible-lg-block visible-md-block">
             <nav class="navbar navbar-inverse top-links navbar-default">
@@ -103,18 +112,14 @@
     </header>
 
     <div class="container" data-example-id="collapse-accordion">
-         <div class="row">    
-            <div class="col-sm-6 col-xs-6 col-md-5">
-                <h2>
-                    Lineamientos Comite
-                </h2>                
-             </div>
-            <div class="col-sm-6 col-xs-6 col-md-5">
-                <a id="lineamientos" onclick="mostrar()" ><img  src="img/pdf.png" alt="Smiley face" height="30" width="30"></a>
-            
-                <a id="lineamientos-2" img href="pdf/lineamientos.pdf" target="_blank" ><img src="img/pdf.png" alt="Smiley face" height="30" width="30"></a>
+        <div class="container">
 
-             </div>
+            <h2>Lineamientos Comite
+            <a id="lineamientos" onclick="mostrar()" ><img  src="img/pdf.png" alt="Smiley face" height="30" width="30"></a>
+            
+            <a id="lineamientos-2" img href="pdf/lineamientos.pdf" target="_blank" ><img src="img/pdf.png" alt="Smiley face" height="30" width="30"></a>
+
+            </h2>
         </div>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">

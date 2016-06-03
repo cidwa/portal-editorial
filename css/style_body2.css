@@ -161,6 +161,23 @@ background-color: black;
 
 /* PDFObject automatically assigns the class name "pdfobject" to the <embed> element */
 
+/*
+PDFObject appends the classname "pdfobject-container" to the target element.
+This enables you to style the element differently depending on whether the embed was successful.
+*/
+
+.pdfobject-container {
+    top:20px;
+    margin-left: 11%;
+    position: fixed;
+    width: 70%;
+    height: 600px;
+    z-index: 100;
+}
+
+
+/* PDFObject automatically assigns the class name "pdfobject" to the <embed> element */
+
 .pdfobject {
     border: solid 1px #666;
 }
@@ -190,4 +207,35 @@ background-color: black;
     }
 }
 
+#pdf_view {
+    padding: 5% 10% 3% 5%;
+    background-color: rgba(0, 0, 0, 0.74);
+    position: fixed;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
 
+#cerrar >button {
+    height: inherit;
+    width: inherit;
+    position: fixed;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    background-color: rgba(72, 68, 68, 0.15);
+    border-color: rgba(72, 68, 68, 0.15); !important;
+}
+
+#cerrar {
+    height: 50px;
+    width: 40px;
+    position: absolute;
+    z-index: 10000;
+    right: .5%;
+    top: .10%;
+    margin: 0;
+    padding: 0;
+}
