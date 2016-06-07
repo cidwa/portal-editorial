@@ -89,7 +89,6 @@ div.panel-default >div.panel-heading >h4>a {
 
 div.panel-default >div.panel-heading >h4>a:hover {
     color: #023867;
-    text-decoration: underline;
 }
 
 div.panel-default >div.panel-collapse {
@@ -118,5 +117,6 @@ div.panel-default >div.panel-collapse >div.panel-body > p {
 .lista-con-espacio >li {
     margin-left: 4%;
 }
+/** stilos para comite-editorial.html*/
 
 /*los estilos del pdf los pase al style_body2---no te vayas a espantar walter XD*/
