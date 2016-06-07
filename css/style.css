@@ -68,12 +68,13 @@ ul li a:hover {
     margin-top: 100px;
 }
 
-div.panel-default >div.panel-heading {
-    padding: 0 !important;
-}
+
 
 
 /** stilos para comite-editorial.html*/
+div.panel-default >div.panel-heading {
+    padding: 0 !important;
+}
 
 div.panel-default >div.panel-heading >h4 {
     width: inherit;

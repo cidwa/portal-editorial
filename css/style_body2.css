@@ -1,25 +1,27 @@
-.thumbnail{
+.thumbnail {
     border: none;
 }
 
-.titulo{ 
-        border-bottom: 1px solid #9f9b9b;
-        margin-bottom: 2em;
-    }
-
-.leermas{
-    display: none;
-
+.titulo {
+    border-bottom: 1px solid #9f9b9b;
+    margin-bottom: 2em;
 }
-.imagen{
+
+.leermas {
+    display: none;
+}
+
+.imagen {
     width: 100%;
     height: 150px;
     margin: 0 auto;
 }
-    .mask-slider{
-        display: none;
-    }
-.imagen:hover .mask-slider{
+
+.mask-slider {
+    display: none;
+}
+
+.imagen:hover .mask-slider {
     display: block;
     width: 100%;
     height: 25%;
@@ -27,6 +29,8 @@
     text-align: center;
     transform: translatey(112px);
 }
+
+
 /*.imagen:hover .mask>.leermas{
     color: #fff;
     display: inline-block;
@@ -37,61 +41,69 @@
     padding: 7px 14px;
     
 }*/
-    
-    .imagen:hover .mask-slider a span{
-        border-left: .5px groove #fff;
-        font-size: 22px;
-        width: 50%;
-        height: 100%;
-        color: white;
-        padding: 5px;
-    }
-    
-    .product-slider-a span:hover{
-        background-color: rgba(255, 0, 0, 0.8);
-        border-left: .5px groove #fff;
-        font-size: 22px;
-        color: white;
-    }
-.caption{
+
+.imagen:hover .mask-slider a span {
+    border-left: .5px groove #fff;
+    font-size: 22px;
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding: 5px;
+}
+
+.product-slider-a span:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+    border-left: .5px groove #fff;
+    font-size: 22px;
+    color: white;
+}
+
+.caption {
     text-align: center;
 }
-.subtitulo{
+
+.subtitulo {
     font-weight: bold;
 }
 
-#uno{
+#uno {
     background-image: url(http://www.libros.unam.mx/media//cuentacuento.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
-#dos{
+
+#dos {
     background-image: url(http://www.libros.unam.mx/media//banner-LA-art-book.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
-#tres{
+#tres {
     background-image: url(http://www.libros.unam.mx/media//fil.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
-#cuatro{
+
+#cuatro {
     background-image: url(http://www.libros.unam.mx/media//banner-distrito.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
-    /*.......................*/
+
+
+/*.......................*/
 
 
 /** Carousel **/
-.jcarousel{
- overflow: hidden;       
-    }
+
+.jcarousel {
+    overflow: hidden;
+}
+
 .jcarousel ul {
     width: 40000em;
     position: relative;
@@ -100,25 +112,27 @@
     padding: 0;
 }
 
-
 .jcarousel li {
     float: left;
-    
     width: 100px;
 }
+
+
 /** Carousel Controls **/
 
 .jcarousel-control-prev,
 .jcarousel-control-next {
-background-color: black;
+    background-color: black;
     padding: 5px 10px;
     font-size: 20px;
-    }
-    .jcarousel-control-prev:hover,
-    .jcarousel-control-next:hover{
-        color: white;
-        text-decoration: none;
-    }
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-next:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .jcarousel-control-prev {
     color: white;
     left: 15px;
@@ -129,11 +143,13 @@ background-color: black;
     right: 15px;
 }
 
+
 /** Comite-editorial-interno LINEAMIENTOS ESTILOS **/
 
 .margen-panel-body {
     padding-left: 50px !important;
 }
+
 .margen-h-body {
     padding-left: 25px;
 }
@@ -143,23 +159,26 @@ background-color: black;
 }
 
 .none-style {
-   text-decoration: none;
-    
-}
-.none-style:hover, .none-style:focus, .none-style:active{
     text-decoration: none;
 }
 
-.none-style:focus{
+.none-style:hover,
+.none-style:focus,
+.none-style:active {
+    text-decoration: none;
+}
+
+.none-style:focus {
     outline-style: none;
 }
 
 .margen-panel-body {
     padding-left: 50px;
-
 }
 
+
 /* PDFObject automatically assigns the class name "pdfobject" to the <embed> element */
+
 
 /*
 PDFObject appends the classname "pdfobject-container" to the target element.
@@ -167,7 +186,7 @@ This enables you to style the element differently depending on whether the embed
 */
 
 .pdfobject-container {
-    top:20px;
+    top: 20px;
     margin-left: 11%;
     position: fixed;
     width: 70%;
@@ -182,28 +201,53 @@ This enables you to style the element differently depending on whether the embed
     border: solid 1px #666;
 }
 
-
 #lineamientos {
     float: right;
     padding: .8%;
-            visibility: visible;
-
+    visibility: visible;
+    margin-top: 1%;
+    display: inline;
 }
 
 #lineamientos-2 {
     float: right;
     padding: .8%;
-            visibility: hidden;
-
+    visibility: hidden;
+    margin-top: .1%;
+    display: none;
 }
 
+#lineamiento-header {
+    width: 80%;
+    display: inline-block;
+}
 
 @media (max-width:700px) {
+    #lineamiento-header {
+        width: 80% !important;
+        font-size: 1.5em;
+        font-weight: bold;
+        display: inline-block;
+    }
     #lineamientos {
         visibility: hidden;
+        display: none;
+        margin-top: 1%;
     }
     #lineamientos-2 {
         visibility: visible;
+        display: inline-block;
+        margin-top: 1%;
+    }
+}
+
+@media(max-width:341px) {
+    #lineamientos,
+    #lineamientos-2 {
+        margin-top: 10%;
+    }
+    #lineamiento-header {
+        margin-bottom: 10%;
     }
 }
 
@@ -226,7 +270,8 @@ This enables you to style the element differently depending on whether the embed
     padding: 0;
     border-radius: 50%;
     background-color: rgba(72, 68, 68, 0.15);
-    border-color: rgba(72, 68, 68, 0.15); !important;
+    border-color: rgba(72, 68, 68, 0.15);
+    !important;
 }
 
 #cerrar {
