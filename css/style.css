@@ -71,19 +71,16 @@ ul li a:hover {
 
 
 
+
 /** stilos para comite-editorial.html*/
-div.panel-default >div.panel-heading {
-    padding: 0 !important;
-}
 
 div.panel-default >div.panel-heading >h4 {
     width: inherit;
-    height: inherit;
     padding: 0px !important;
 }
 
 div.panel-default >div.panel-heading >h4>a {
-    padding: 10px !important;
+    padding: 0px !important;
     display: block;
     color: #337ab7;
 }
@@ -118,6 +115,3 @@ div.panel-default >div.panel-collapse >div.panel-body > p {
 .lista-con-espacio >li {
     margin-left: 4%;
 }
-/** stilos para comite-editorial.html*/
-
-/*los estilos del pdf los pase al style_body2---no te vayas a espantar walter XD*/
